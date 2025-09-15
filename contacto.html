@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - Talentos del futbol en acción</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Talentos del futbol en acción</h1>
+    <nav class="header__nav">
+      <ul class="header__menu">
+        <li class="header__item"><a href="index.html" class="header__link">Inicio</a></li>
+        <li class="header__item"><a href="index.html#videos" class="header__link">Videos</a></li>
+        <li class="header__item"><a href="informacion.html" class="header__link header__link--activo">Información</a></li>
+        <li class="header__item"><a href="contacto.html" class="header__link header__link--activo">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="contacto">
+      <h2 class="contacto__title">Contáctanos</h2>
+      <p class="contacto__text">¿Tienes dudas sobre como promocionar tus videos? Escríbenos.</p>
+
+      <form class="contacto__form">
+        <label class="contacto__label" for="nombre">Nombre</label>
+        <input class="contacto__input" type="text" id="nombre" name="nombre" required />
+
+        <label class="contacto__label" for="age">Edad</label>
+        <input class="contacto__input" type="age" id="age" name="age" required />
+
+        <label class="contacto__label" for="position">Posición/es</label>
+        <input class="contacto__input" type="position" id="position" name="position" required />
+
+        <label class="contacto__label" for="team">Equipo</label>
+        <input class="contacto__input" type="team" id="team" name="team" required />
+
+        <label class="contacto__label" for="email">Correo Electrónico</label>
+        <input class="contacto__input" type="email" id="email" name="email" required />
+
+        <label class="contacto__label" for="mensaje">Mensaje</label>
+        <textarea class="contacto__textarea" id="mensaje" name="mensaje" rows="5" required></textarea>
+
+
+        <button class="contacto__button" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">&copy; Futbolistas en Acción en 2025. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
